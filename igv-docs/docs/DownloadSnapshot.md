@@ -12,11 +12,11 @@ The page title should not go in the menu
 
 
 [![Windows snapshot with java](img/DownloadSnapshotWindowsWithJava.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_Win_snapshot-WithJava-installer.exe) 
-[![Windows snapshot no java](img/DownloadSnapshotWindowsNeedsJava17.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_Win_snapshot-installer.exe) 
+[![Windows snapshot no java](img/DownloadSnapshotWindowsNeedsJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_Win_snapshot-installer.exe) 
 <BR>
 [![Linux snapshot with Java](img/DownloadSnapshotLinux.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_Linux_snapshot_WithJava.zip)
 <BR>
-[![Command line snapshot no java](img/DownloadSnapshotCmdLineNeedsJava17.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_snapshot.zip)
+[![Command line snapshot no java](img/DownloadSnapshotCmdLineNeedsJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/snapshot/IGV_snapshot.zip)
 
 !!! Note "For Mac users:"
 Mac apps are not provided for the IGV snapshot build. To **run the snapshot build on a Mac**: 
