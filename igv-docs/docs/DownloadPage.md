@@ -8,7 +8,7 @@ The page title should not go in the menu
 
 # Latest release of IGV Desktop: 2.19.1
 
-!!! Danger "As of version 2.19.0, IGV requires **Java 21 or greater**. "
+!!! Danger "As of version 2.19.1, IGV requires **Java 21 or greater**. "
     If you download one of the IGV versions that does not include Java, make sure you have Java 21 installed and in your path.
 
 !!! note "Linux users:"
