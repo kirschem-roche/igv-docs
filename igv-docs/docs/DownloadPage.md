@@ -75,12 +75,13 @@ document.addEventListener("DOMContentLoaded", function os() {
 
 # All platforms
 
-** IGV requires Java 21 or greater as of IGV 2.19.1**. If you download one of the IGV versions that does not include Java, make sure you have Java 21 installed and in your path.
+**IGV requires Java 21 or greater as of IGV 2.19.1**. If you download one of the IGV versions that does not include Java, make sure you have Java 21 installed and in your path.
 
-**Linux users:** The *"IGV for Linux"* download includes AdoptOpenJDK (now Eclipse Temurin) version 21 for x64 Linux. See their list of supported platforms [here](https://adoptium.net/supported-platforms/). If your platform is not on the "x64 Linux" list, or the packaged Java does not work on your version of Linux, download the *"Command line IGV for all platforms"* and use it with your own Java installation.
+**Mac users:** As of IGV 2.19.1, the Mac apps require **MacOS 11 (Big Sur)** or greater. For older MacOS versions, either use the *"Command line IGV for all platforms"* -or- download a Mac app for IGV 2.18.4 or earlier. All older IGV versions are available in the [**Archive**](https://data.broadinstitute.org/igv/projects/downloads/).
 <br>
 
-  
+**Linux users:** The *"IGV for Linux"* download includes AdoptOpenJDK (now Eclipse Temurin) version 21 for x64 Linux. See their list of supported platforms [here](https://adoptium.net/supported-platforms/). If your platform is not on the "x64 Linux" list, or the packaged Java does not work on your version of Linux, download the *"Command line IGV for all platforms"* and use it with your own Java installation.
+<br> 
 
 [![MacApp Apple with java](img/DownloadYMacWithJavaApple.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.1_WithJava.zip)
 [![MacApp Intel with java](img/DownloadYMacWithJavaIntel.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacAppIntel_2.19.1_WithJava.zip)
