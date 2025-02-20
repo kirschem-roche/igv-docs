@@ -728,6 +728,8 @@ A tiled data file (TDF) file (.tdf) is a binary file that contains data that has
 
 Generate TDF files by using the [igvtools](../UserGuide/tools/igvtools_ui.md) **toTDF** command.
 
+More detailed information about the TDF file format is available [here](https://github.com/igvteam/igv/wiki/TDF-Format).
+
 ## Track Lines
 
 When IGV loads a data file, it uses the file extension to determine the file format, the file format to determine the data type, and the data type to determine the default display options. Adding a track line to a data file modifies IGV's default display options. This can be particularly useful for file formats not associated with any particular type of data, such as the IGV file format.
