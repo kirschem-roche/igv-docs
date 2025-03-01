@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function os() {
 
 <p class="page-title"> Download IGV </p>
 
-### IGV version 2.19.1
+### IGV version 2.19.2
 
 <div id="download_container"></div>
 
@@ -86,16 +86,16 @@ document.addEventListener("DOMContentLoaded", function os() {
 **Linux users:** The *IGV for Linux* download includes AdoptOpenJDK (now Eclipse Temurin) version 21 for x64 Linux. See their list of supported platforms [here](https://adoptium.net/supported-platforms/). If your platform is not on the "x64 Linux" list, or the packaged Java does not work on your version of Linux, download the *"Command line IGV for all platforms"* and use it with your own Java installation.
 <br> 
 
-[![MacApp Apple with java](img/DownloadYMacWithJavaApple.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.1_WithJava.zip)
-[![MacApp Intel with java](img/DownloadYMacWithJavaIntel.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacAppIntel_2.19.1_WithJava.zip)
-[![MacApp no java](img/DownloadYMacNeedsJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.1.zip)
+[![MacApp Apple with java](img/DownloadYMacWithJavaApple.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.2_WithJava.zip)
+[![MacApp Intel with java](img/DownloadYMacWithJavaIntel.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacAppIntel_2.19.2_WithJava.zip)
+[![MacApp no java](img/DownloadYMacNeedsJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.2.zip)
 <br>
-[![Windows snapshot with java](img/DownloadYWindowsWithJava.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.1-WithJava-installer.exe)
-[![Windows no java](img/DownloadYWindowsNoJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.1-installer.exe)
+[![Windows snapshot with java](img/DownloadYWindowsWithJava.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.2-WithJava-installer.exe)
+[![Windows no java](img/DownloadYWindowsNoJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.2-installer.exe)
 <br>
-[![Linux with Java](img/DownloadYLinuxWithJava.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Linux_2.19.1_WithJava.zip)
+[![Linux with Java](img/DownloadYLinuxWithJava.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Linux_2.19.2_WithJava.zip)
 <br>
-[![Command line no java](img/DownloadYCommandLineNoJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_2.19.1.zip)
+[![Command line no java](img/DownloadYCommandLineNoJava21.png){height=80}](https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_2.19.2.zip)
 
 # Other releases of IGV Desktop
 
