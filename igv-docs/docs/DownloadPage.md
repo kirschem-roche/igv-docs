@@ -24,23 +24,23 @@ document.addEventListener("DOMContentLoaded", function os() {
         const g = d && w.getParameter(d.UNMASKED_RENDERER_WEBGL) || ""
         if (g.match(/Apple/)) {
             console.log("Apple Silicon")
-            href = 'https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.1_WithJava.zip'
+            href = 'https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacApp_2.19.2_WithJava.zip'
             imgAlt = 'MacApp Apple with java'
             imgSrc = '../img/DownloadYMacWithJavaApple.png'
         } else {
             console.log("Apple Intel")
-            href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacAppIntel_2.19.1_WithJava.zip"
+            href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_MacAppIntel_2.19.2_WithJava.zip"
             imgAlt = "MacApp Intel with java"
             imgSrc = "../img/DownloadYMacWithJavaIntel.png"
         }
     } else if (osName.indexOf('Windows') !== -1 || cpu === 'amd64') {
         console.log("Windows")
-        href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.1-WithJava-installer.exe"
+        href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Win_2.19.2-WithJava-installer.exe"
         imgAlt = "Windows snapshot with java"
         imgSrc = "../img/DownloadYWindowsWithJava.png"
     } else if (osName.indexOf('Linux') !== -1 || osName.indexOf('Ubuntu') !== -1) {
         console.log("Linux")
-        href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Linux_2.19.1_WithJava.zip"
+        href = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Linux_2.19.2_WithJava.zip"
         imgAlt = "Linux with Java"
         imgSrc = "../img/DownloadYLinuxWithJava.png"
     }
