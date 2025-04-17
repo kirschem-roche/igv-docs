@@ -89,24 +89,21 @@ A cytoband file is a five-column tab-delimited text file. Each row of the file d
 
 ## FASTA
 
-The [FASTA](https://en.wikipedia.org/wiki/FASTA_format) file format (.fasta or .fa) is used to specify the reference sequence for an imported genome. Each sequence in the FASTA file represents the sequence for a chromosome. The sequence name in the FASTA file is the chromosome name that appears in the chromosome drop-down list in the IGV tool bar. IGV orders the chromosomes based on their names, not their order in the FASTA file.
+The [FASTA](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/) file format (.fasta or .fa) is used to specify the reference sequence for an imported genome. Each sequence in the FASTA file represents the sequence for a chromosome. The sequence name in the FASTA file is the chromosome name that appears in the chromosome drop-down list in the IGV tool bar. 
 
-A FASTA file is a text file. Each sequence begins with a single-line description, followed by lines of sequence data. The single-line description contains a greater-than (>) symbol in the first column, followed by the sequence name. 
+IGV requires that the FASTA file be indexed.  The index file can be created with [samtools](https://www.htslib.org/) or igvtools.  The index file is named the same as the FASTA file, but with a ".fai" extension.  For example, if the FASTA file is named "hg18.fasta", the index file should be named "hg18.fasta.fai".  If the index file is not present IGV will attempt to create one.  
 
-FASTA files can be loaded directly from the **_Genome_** menu or can be referred to in a [JSON](#igv-reference-genome-json) file that contains a reference genome specification.
+FASTA files can be loaded directly from the **_Genome_** menu or can be referred to in a [JSON](#igv-reference-genome-json) file that contains a reference genome specification.  
+
+## TWOBIT
+
+The [2bit](https://genome.ucsc.edu/FAQ/FAQformat.html#format2bit) file format is a compressed binary format for storing DNA sequence data.  It can be used in lieu of a FASTA file for defining the reference.  The 2bit file can be created from a FASTA file using the [faToTwoBit](https://genome.ucsc.edu/goldenPath/help/twoBit.html) program from UCSC.
 
 ## IGV reference genome (JSON)
 
-As of release 2.11.0 reference genomes can be specified and loaded as JSON files.  The previous ".genome" format is now considered deprecated.  The format is a json form of the "reference" object description from igv.js, described [here](https://github.com/igvteam/igv.js/wiki/Reference-Genome).  For IGV use, required properties include ```id```, ```name```, and ```fastaURL```.  All other properties are optional.  An example of a complete json description for the GRCh38 assembly is given below.
+As of release 2.11.0 reference genomes can be specified and loaded as JSON files.  The previous ".genome" format is now considered deprecated.  The format is a json form of the "reference" object description from igv.js, described [here](https://github.com/igvteam/igv.js/wiki/Reference-Genome).  For IGV use, required properties include ```id```, ```name```, and either ```fastaURL``` and ```indexURL``` or ```twoBitURL```.  All other properties are optional.  An example of a complete json description for the GRCh38 assembly is given below.
 
-Key differences with respect to the ".genome" format are
-
-* Annotation, cytoband, and alias files are specified by URL or path, rather than packed into a zip archive.
-* There can be any number of annotation tracks associated with the genome.  
-* Annotation track files can be indexed.
-* Annotation tracks can be marked "hidden".  This can be used for loading named annotations for the purpose of searching for loci by name, without creating a visible track.  A common use case is allow indexing (which negates searching) a large annotation track for visualization, while loading a reduced set of annotations for searching.
-
-Fields ending with "url" can contain local file paths.  These paths can be absolute or relative to the location of the genome (.json) file.
+Fields ending with "URL" can contain local file paths.  These paths can be absolute or relative to the location of the genome (.json) file.
 
 **Example: Human GRCh38 with 2 annotation tracks**
 
