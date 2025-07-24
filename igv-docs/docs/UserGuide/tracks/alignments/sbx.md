@@ -6,7 +6,7 @@ This page describes additional options for viewing SBX read alignments.
 
 SBX alignment options are enabled from the *Alignments* tab of the user preferences window.  
 
-![SBX alignment options menu](../img/sbxoptionsmenuscreenshot.png)
+![SBX alignment options menu](../../img/sbxoptionsmenuscreenshot.png)
 
 ## Insertion recoloring
 
@@ -17,9 +17,9 @@ The "INDEL Coloring uses grey" option enables insertions to be colored based on 
     - A base immediately adjacent to the insertion is discordant
     - There is a homopolymer substring of the read which fully contains the insertion and which has at least one discordant base
 <br>
-A few examples of this recoloring can be seen in the image below:<br>
+A few examples of this recoloring can be seen in the image below:<br><br>
 
-![SBX insertion recoloring example](../img/sbxoptionsmenuscreenshot.png)
+![SBX insertion recoloring example](../../img/sbxinsertionrecoloring.png)
 
 ## Coloring or hiding SBX simplex tails
 
@@ -27,11 +27,11 @@ Some SBX reads will have a simplex tail, where one read of the hairpin molecule 
 <br><br>
 Example of highlighting simplex tails:<br>
 
-![SBX simplex tail recoloring example](../img/sbxsimplextailcolor.png)
+![SBX simplex tail recoloring example](../../img/sbxsimplextailcolor.png)
 
 Example of hiding simplex tails:<br>
 
-![SBX simplex tail hiding example](../img/sbxsimplextailhide.png)
+![SBX simplex tail hiding example](../../img/sbxsimplextailhide.png)
 
 ## References
 
